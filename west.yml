@@ -1,0 +1,13 @@
+manifest:
+  version: 0.7
+
+  # This repository should be cloned to: gophyr
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: main
+      import: true

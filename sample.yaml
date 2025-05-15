@@ -1,0 +1,27 @@
+common:
+  harness: net
+  tags:
+    - net
+    - wifi
+    - gopher
+sample:
+  description: Gopher protocol client with ASCII art image rendering
+  name: Gophyr - Gopher Protocol Client
+tests:
+  sample.net.gophyr:
+    platform_allow:
+      - esp32_devkitc/esp32/procpu
+      - esp32s2_saola
+      - esp32c3_devkitm
+      - esp32s3_devkitm/esp32s3/procpu
+      - esp32c6_devkitc/esp32c6/hpcore
+      - nrf7002dk/nrf5340/cpuapp
+      - cc3220sf_launchxl
+      - disco_l475_iot1
+      - reel_board
+      - siwx917_rb4338a
+      - frdm_rw612
+      - rd_rw612_bga
+    integration_platforms:
+      - esp32s3_devkitm/esp32s3/procpu
+      - nrf7002dk/nrf5340/cpuapp

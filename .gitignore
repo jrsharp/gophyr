@@ -1,0 +1,31 @@
+# Build artifacts
+/build/
+/build-*/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+compile_commands.json
+
+# Zephyr specific
+compile_commands.json
+.config
+.config.old
+output.map
+outdir
+*.o
+*.a
+*.d
+*.cmd
+*.log
+*.pyc
+__pycache__/
+.west/
+.vscode/
+.clangd/
+
+# OS specific
+.DS_Store
+*.swp
+*~
