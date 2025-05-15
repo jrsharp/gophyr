@@ -6,14 +6,13 @@ Gophyr is a modern implementation of the Gopher protocol (RFC 1436) for Zephyr R
 
 * Full Gopher protocol implementation (RFC 1436)
 * Shell-based interface for easy navigation
-* Image rendering with ASCII art conversion
+* Image rendering with ASCII art conversion (WiP)
 * Support for ESP32's SPIRAM for processing larger images
 * Navigation history with 'back' command
 * Color terminal output
 * Directory browsing
 * Text file viewing
-* Image viewing
-* Search support
+* Image viewing (WiP)
 
 ## Building and Running
 
